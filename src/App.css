@@ -1,0 +1,31 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  flex-basis: 60%;
+ 
+
+}
+
+.map {
+  flex-grow: 1;
+  height: 100vh;
+  top: 0;
+  position: sticky;
+
+}
+
+.search {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+
+.search input {
+  width: 100%;
+  height: 40px;
+  font-size: 24px;
+  color: #999;
+}

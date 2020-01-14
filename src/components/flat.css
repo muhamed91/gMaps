@@ -1,0 +1,31 @@
+.flat {
+    flex-basis: calc(50% - 20px );
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.flats {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.flat:hover {
+    opacity: 0.5;
+}
+
+.flat-picture {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.flat-title {
+    margin-top: 10px;
+    font-weight: bold;
+}
