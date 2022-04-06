@@ -4,7 +4,7 @@ import GoogleMapReact from 'google-map-react';
 import fetchFlat from './containers/fetchFlat';
 import Flat from './components/Flat';
 import Marker from './components/Marker';
-import { throwStatement } from '@babel/types';
+
 
 class App extends React.Component{
 
